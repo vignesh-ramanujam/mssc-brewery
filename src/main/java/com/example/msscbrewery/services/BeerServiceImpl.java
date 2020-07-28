@@ -29,4 +29,9 @@ public class BeerServiceImpl implements BeerService {
 
         return null;
     }
+
+    @Override
+    public void deleteBeer(UUID beerId) {
+
+    }
 }
